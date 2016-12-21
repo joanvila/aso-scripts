@@ -1,0 +1,4 @@
+set term png
+set output "chart.png"
+# plot 'data' using 0:2 with boxes
+plot 'data' using (column(0)):2:xtic(1) ti col with boxes
